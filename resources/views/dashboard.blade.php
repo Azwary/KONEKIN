@@ -3,7 +3,8 @@
 <html lang="en">
 <title>KONEKIN | {{ $title }}</title>
   <body>
-    <!-- Navbar -->
+    <!-- Navbar --> 
+    {{-- ini  --}}
 <nav class="navbar nav-padding navbar-expand-lg navbar-dark position-fixed w-100 wave-animation navbarSaya" id="myNavbar" >
   <div class="container">
     <a class="navbar-brand no-effect" href="index.php">
