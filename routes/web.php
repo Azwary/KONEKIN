@@ -14,18 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    echo view('head-footer/head');
-    echo view('Utama',[
+    return view('Utama',[
         "title" => "Dashboard"
     ]);
-    return view('head-footer/footer');
 });
 Route::get('/Home', function () {
-    echo view('head-footer/head');
-    echo view('Utama',[
+    return view('Utama',[
         "title" => "Dashboard"
     ]);
-    return view('head-footer/footer');
 });
 Route::get('/Masuk', function () {
     return view('user/Masuk');
