@@ -21,7 +21,7 @@
     </svg>
       </a>
       <div class="container">
-        <form action="Login" method="post">
+        <form action="Cek" method="post">
           <div class="top">
             <header>Masuk</header>
           </div>

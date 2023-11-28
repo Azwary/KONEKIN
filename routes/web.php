@@ -14,11 +14,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('Utama',[
+    return view('awal',[
         "title" => "Dashboard"
     ]);
 });
 Route::get('/Home', function () {
+    return view('awal',[
+        "title" => "Dashboard"
+    ]);
+});
+Route::get('/Utama', function () {
     return view('Utama',[
         "title" => "Dashboard"
     ]);
@@ -29,4 +34,8 @@ Route::get('/Masuk', function () {
 Route::get('/Daftar', function () {
     return view('user/Daftar');
 });
+// Route::get('/Cek', function () {
+//     return view('user/cek');
+// });
+
 

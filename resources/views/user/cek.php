@@ -1,5 +1,5 @@
 <?php
-include "../config/koneksi.php"; 
+// include "../config/koneksi.php"; 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $usern = mysqli_real_escape_string($conn, $_POST['user']);
