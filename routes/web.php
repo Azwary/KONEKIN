@@ -38,4 +38,6 @@ Route::get('/Daftar', function () {
 //     return view('user/cek');
 // });
 
-
+Route::get('/komunitas', function () {
+    return view('komunitas');
+});

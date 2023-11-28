@@ -9,10 +9,10 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item mx-4">
-          <a class="nav-link" aria-current="page" href="index2.php">Beranda</a>
+          <a class="nav-link" aria-current="page" href="Utama">Beranda</a>
         </li>
         <li class="nav-item mx-4">
-          <a class="nav-link" aria-current="page" href="komunitas.php">Komunitas</a>
+          <a class="nav-link" aria-current="page" href="komunitas">Komunitas</a>
         </li>
         <li class="nav-item dropdown mx-4">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Acara</a>
