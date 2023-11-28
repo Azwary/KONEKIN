@@ -1,10 +1,10 @@
 <?php
-include "head.php";
+// include "head.php";
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
-<title>Dashboard</title>
+<title>{{ $title }}</title>
 <!-- Navbar -->
 <nav class="navbar nav-padding navbar-expand-lg navbar-dark position-fixed w-100 wave-animation navbarSaya" id="myNavbar" >
       <div class="container">
@@ -17,7 +17,7 @@ include "head.php";
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item mx-4">
-              <a class="nav-link" aria-current="page" href="index.php">Beranda</a>
+              <a class="nav-link" aria-current="page" href="Home">Beranda</a>
             </li>
             
             <li class="nav-item dropdown mx-4">
@@ -247,5 +247,5 @@ include "head.php";
 </html>
 
 <?php
-include "footer.php";
+// include "footer.php";
 ?>
