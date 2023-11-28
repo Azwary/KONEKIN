@@ -41,3 +41,9 @@ Route::get('/Daftar', function () {
 Route::get('/komunitas', function () {
     return view('komunitas');
 });
+Route::get('/Organisasi', function () {
+    return view('acara/organisasi');
+});
+Route::get('/Individe', function () {
+    return view('acara/individu');
+});

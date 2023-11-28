@@ -17,8 +17,8 @@
         <li class="nav-item dropdown mx-4">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Acara</a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="acara/organisasi.php" >Organisasi</a></li>
-            <li><a class="dropdown-item" href="acara/organisasi.php" >Individu</a></li>
+            <li><a class="dropdown-item" href="Organisasi" >Organisasi</a></li>
+            <li><a class="dropdown-item" href="Individu" >Individu</a></li>
           </ul>
         </li>
         <li class="nav-item mx-4">
