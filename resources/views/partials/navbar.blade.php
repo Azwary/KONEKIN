@@ -22,7 +22,7 @@
           </ul>
         </li>
         <li class="nav-item mx-4">
-          <a class="nav-link" id="portofolio" href="forum.php">Forum</a>
+          <a class="nav-link" id="portofolio" href="forum">Forum</a>
         </li>
       </ul>
       <div>

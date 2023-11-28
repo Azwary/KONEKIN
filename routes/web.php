@@ -44,6 +44,6 @@ Route::get('/komunitas', function () {
 Route::get('/Organisasi', function () {
     return view('acara/organisasi');
 });
-Route::get('/Individe', function () {
-    return view('acara/individu');
+Route::get('/forum', function () {
+    return view('forum');
 });
